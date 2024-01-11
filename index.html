@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <a href="" id="link" download="myselfie.png"></a>
+    <center>
+        <h1>Collage Web App&nbsp;&nbsp;<img id="head_img" src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"></h1>
+        <hr>
+        <h4 class="text-capitalize">As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+        <h3><kbd style="border-radius:10px;background:linear-gradient(black,#808080);font-family:cursive;">Say "Selfie" To Take A Selfie And Make A Collage</kbd></h3>
+        <button class="btn btn-primary" id="start" onclick="speak();">Start</button>
+        <br>
+        <h4>Press The Start Button</h4>
+        <label>Your Webcam:</label>
+        <div id="camera"></div>
+        <label>Your Selfie Will Display Here:</label>
+        <div id="resultShow">
+            <div id="result1">
+                <img class="img" id="img1" src="https://img.freepik.com/free-photo/fog-dark-clouds-mountains_1204-503.jpg?size=626&ext=jpg&ga=GA1.1.1185643757.1701521440&semt=sph" width="30%" height="50%">
+            </div>
+
+            <div id="result2">
+                <img class="img" id="img2" src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" width="30%" height="50%">
+            </div>
+
+            <div id="result3">
+                <img class="img" id="img3" src="https://img.freepik.com/free-photo/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal_181624-24825.jpg?size=626&ext=jpg&ga=GA1.1.1185643757.1701521440&semt=sph" width="30%" height="50%">
+            </div>
+        </div>
+    </center>
+    <div id="footer">Developed By - Hardik</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
